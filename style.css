@@ -1,0 +1,15 @@
+* {
+  font-family: "Georgia", Georgia, serif;
+}
+
+.schedule {
+  border: 1px solid black;
+} 
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  color: purple;
+}
