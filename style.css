@@ -1,15 +1,82 @@
-* {
-  font-family: "Georgia", Georgia, serif;
+*{
+  font-family: "Verdana", sans-serif;
 }
 
-.schedule {
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 25px;
+  font-size: 4em;
+  color: white;
+  background-color: cornflowerblue;
+  margin: 0px;
+  border-bottom: 2px solid black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+nav.mainmenu {
+  color: white;
+  background-color: cornflowerblue;
+  margin: 0px;
+  padding: 10px;
+  }
+
+nav.linklist {
+  padding: 0px;
+}
+
+a:visited.link{
+  color: white;
+}
+
+a:link.link{
+  color: white;
+}
+
+a:link.linklist {
+  color: cornflowerblue;
+}
+
+a:visited.linklist {
+  color: cornflowerblue;
+}
+
+.content {
+  padding: 10px;
+}
+
+/*.schedule {
   border: 1px solid black;
-} 
+}*/
 
-.link {
-  color: blue;
+table.schedule {
+  border-collapse: collapse;
 }
 
-.link:hover {
-  color: purple;
+table.schedule td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table.schedule tr:nth-child(even) {
+  background-color: #d1dffa;
+}
+
+/*table.schedule tr:nth-child(odd) {
+  background-color: #ffccd2;
+}*/
+
+table.schedule th {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#timestamp {
+  color: gray;
 }
